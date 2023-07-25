@@ -99,11 +99,16 @@
   .banner {
     height: auto;
   }
+
+  .sale {
+    margin-top: 0%;
+  }
 }
 
 @media only screen and (max-width: 800px) {
   .banner {
     flex-direction: column;
+    margin-block: 2%;
   }
 
   .left,
@@ -114,6 +119,10 @@
   .right {
     margin-top: 4%;
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .sale {
+    margin-top: 7%;
   }
 
   .sale p {
