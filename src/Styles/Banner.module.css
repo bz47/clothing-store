@@ -3,7 +3,8 @@
   justify-content: space-around;
   padding-block: 2%;
   height: 87vh;
-  width: 100vw;
+  width: 95vw;
+  margin: 0 auto;
 }
 
 .left {
@@ -25,11 +26,10 @@
   justify-content: center;
   font-size: larger;
   color: black;
-  border: solid black 1px;
 }
 
 .sale p {
-  background-color: antiquewhite;
+  background-color: rgb(128, 128, 128, 0.7);
   width: fit-content;
   height: 100%;
   width: fit-content;
@@ -93,6 +93,12 @@
   background-size: cover;
   padding-left: 2%;
   font-size: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner {
+    height: auto;
+  }
 }
 
 @media only screen and (max-width: 800px) {
