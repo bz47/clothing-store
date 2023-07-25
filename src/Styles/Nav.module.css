@@ -7,12 +7,17 @@
   padding: 0.5%;
 }
 
+a,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
 .button {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 90%;
-  border: solid black 1px;
   width: 8%;
   min-width: fit-content;
   padding-inline: 2px;
@@ -22,7 +27,7 @@ input {
   border: solid 1px;
 }
 
-.search {
+#search {
   width: 30%;
   height: 90%;
   border-radius: 50px;
@@ -71,9 +76,25 @@ button:hover {
 }
 
 @media only screen and (max-width: 600px) {
-  .nav {
+  #kids,
+  #women,
+  #men,
+  #login {
+    display: none;
+  }
+
+  #search {
+    width: 50%;
+    margin-left: 4%;
+  }
+
+  .basket {
+    margin-right: 2%;
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) and (orientation: horizontal) {
+  .nav {
+    min-height: 6vh;
+  }
 }

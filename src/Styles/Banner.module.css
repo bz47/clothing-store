@@ -117,12 +117,13 @@
   }
 
   .right {
-    margin-top: 4%;
+    margin-top: 15%;
     grid-template-columns: repeat(3, 1fr);
   }
 
   .sale {
     margin-top: 7%;
+    height: 60vh;
   }
 
   .sale p {
@@ -146,5 +147,11 @@
     height: fit-content;
     position: relative;
     top: 38%;
+  }
+}
+
+@media only screen and (max-width: 800px) and (orientation: landscape) {
+  .banner {
+    margin-top: 10%;
   }
 }
