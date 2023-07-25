@@ -1,0 +1,135 @@
+.banner {
+  display: flex;
+  justify-content: space-around;
+  padding-block: 2%;
+  height: 87vh;
+  width: 100vw;
+}
+
+.left {
+  display: grid;
+  gap: 2%;
+  grid-template-rows: 2fr 1fr;
+  width: 55%;
+  height: 100%;
+}
+
+.sale {
+  background-image: url(../../public/images/model.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  color: black;
+  border: solid black 1px;
+}
+
+.sale p {
+  background-color: antiquewhite;
+  width: fit-content;
+  height: 100%;
+  width: fit-content;
+  margin-left: 0;
+  text-align: center;
+  border-right: solid black 1px;
+  font-size: 3rem;
+}
+
+.jewelry {
+  background-image: url(../../public/images/jewlery.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+}
+
+.jewelry p {
+  width: fit-content;
+  height: 100%;
+  margin-left: 0px;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-left: 5%;
+  font-weight: 500;
+}
+
+.right {
+  display: grid;
+  gap: 1em;
+  width: 35%;
+  height: 100%;
+}
+
+.shoes {
+  background-image: url(../../public/images/shoes.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-left: 2%;
+  font-size: 2rem;
+}
+
+.jackets {
+  background-image: url(../../public/images/jacket.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-left: 2%;
+  font-size: 2rem;
+}
+
+.pants {
+  background-image: url(../../public/images/pants.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-left: 2%;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .banner {
+    flex-direction: column;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  .right {
+    margin-top: 4%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .sale p {
+    font-size: 2rem;
+  }
+
+  .shoes,
+  .jackets,
+  .pants {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0%;
+    margin-bottom: 0%;
+  }
+
+  .shoes p,
+  .jackets p,
+  .pants p {
+    background-color: rgb(250, 235, 215, 0.7);
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: 38%;
+  }
+}
