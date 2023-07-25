@@ -5,12 +5,14 @@
   border-bottom: solid black 1px;
   height: 4vh;
   padding: 0.5%;
+  background-color: rgb(97, 32, 97);
+  color: silver;
 }
 
 a,
 a:visited {
   text-decoration: none;
-  color: black;
+  color: silver;
 }
 
 .button {
@@ -91,9 +93,13 @@ button:hover {
   .basket {
     margin-right: 2%;
   }
+
+  .nav {
+    padding-block: 2%;
+  }
 }
 
-@media only screen and (max-width: 800px) and (orientation: horizontal) {
+@media only screen and (max-width: 800px) and (orientation: landscape) {
   .nav {
     min-height: 6vh;
   }

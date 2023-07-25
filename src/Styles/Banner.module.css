@@ -5,6 +5,7 @@
   height: 87vh;
   width: 95vw;
   margin: 0 auto;
+  background-color: lightgray;
 }
 
 .left {
@@ -25,11 +26,11 @@
   display: flex;
   justify-content: center;
   font-size: larger;
-  color: black;
+  color: rgb(97, 32, 97);
 }
 
 .sale p {
-  background-color: rgb(128, 128, 128, 0.7);
+  background-color: darkgray;
   width: fit-content;
   height: 100%;
   width: fit-content;
@@ -98,6 +99,7 @@
 @media only screen and (max-width: 600px) {
   .banner {
     height: auto;
+    margin-top: 0%;
   }
 
   .sale {
@@ -108,12 +110,16 @@
 @media only screen and (max-width: 800px) {
   .banner {
     flex-direction: column;
-    margin-block: 2%;
+    margin-top: 5%;
   }
 
   .left,
   .right {
     width: 100%;
+  }
+
+  .left {
+    margin-top: 12%;
   }
 
   .right {
@@ -127,7 +133,8 @@
   }
 
   .sale p {
-    font-size: 2rem;
+    font-size: 1.7rem;
+    font-weight: 500;
   }
 
   .shoes,
@@ -139,19 +146,34 @@
     margin-bottom: 0%;
   }
 
+  .jewelry p {
+    background-color: darkgray;
+    width: fit-content;
+    padding: 0%;
+  }
+
   .shoes p,
   .jackets p,
   .pants p {
-    background-color: rgb(250, 235, 215, 0.7);
+    background-color: darkgray;
     width: fit-content;
     height: fit-content;
     position: relative;
-    top: 38%;
+    top: 31%;
   }
 }
 
 @media only screen and (max-width: 800px) and (orientation: landscape) {
   .banner {
     margin-top: 10%;
+  }
+
+  .right {
+    margin-top: 25%;
+  }
+
+  .right div p {
+    position: relative;
+    top: 31%;
   }
 }

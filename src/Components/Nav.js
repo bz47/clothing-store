@@ -4,7 +4,7 @@ import styles from "../Styles/Nav.module.css";
 function Nav() {
   return (
     <div className={styles.nav}>
-      <h2> Name</h2>
+      <h2> Velvet</h2>
       <div id={styles.kids} className={styles.button}>
         <a href="">Kids</a>
       </div>
