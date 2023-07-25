@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "../Styles/Kids.module.css";
 
 function Kids() {
   return (

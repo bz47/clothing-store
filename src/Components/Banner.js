@@ -9,7 +9,9 @@ function Banner() {
       <div className={styles.banner}>
         <div className={styles.left}>
           <div className={styles.sale}>
-            <p>Hot Now</p>
+            <Link exact to="./Hot">
+              <p>Hot Now</p>
+            </Link>
           </div>
           <div className={styles.jewelry}>
             <Link exact to="./Jewlery">

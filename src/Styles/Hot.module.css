@@ -1,0 +1,10 @@
+.hot {
+  display: flex;
+  justify-content: space-around;
+  padding-block: 2%;
+  height: 87vh;
+  width: 95vw;
+  margin: 0 auto;
+  background-color: orange;
+  color: black;
+}
