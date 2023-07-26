@@ -128,8 +128,8 @@
 @media only screen and (max-width: 800px) {
   .banner {
     flex-direction: column;
-    margin-top: 5%;
     margin-bottom: 2%;
+    margin-top: 8%;
   }
 
   .left,
@@ -142,12 +142,11 @@
   }
 
   .right {
-    margin-top: 15%;
+    margin-top: 5%;
     grid-template-columns: repeat(3, 1fr);
   }
 
   .sale {
-    margin-top: 7%;
     height: 60vh;
   }
 
@@ -184,12 +183,12 @@
 
 @media only screen and (max-width: 800px) and (orientation: landscape) {
   .banner {
-    margin-top: 10%;
+    margin-top: 14%;
     margin-bottom: 2%;
   }
 
   .right {
-    margin-top: 25%;
+    margin-top: 8%;
   }
 
   .right div p {
