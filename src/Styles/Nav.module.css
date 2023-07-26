@@ -16,7 +16,12 @@ a:visited {
 }
 
 a:hover {
-  filter: brightness(3);
+  filter: brightness(4);
+}
+
+h2 {
+  color: silver;
+  filter: contrast(4);
 }
 
 .button {

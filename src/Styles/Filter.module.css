@@ -1,0 +1,42 @@
+.filters {
+  border-bottom: solid black 1px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background-color: lightgray;
+}
+
+#filterbar {
+  height: 50%;
+  width: 3rem;
+  background-image: url("../../public/images/filter.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#dropdown {
+  height: 40%;
+  width: 3rem;
+  background-image: url("../../public/images/dropdown.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.left,
+.center,
+.right {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div section:hover,
+div h3:hover {
+  cursor: pointer;
+}

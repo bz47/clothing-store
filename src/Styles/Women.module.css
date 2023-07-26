@@ -1,3 +1,58 @@
-.women {
-  color: blue;
+.header {
+  border-bottom: solid black 1px;
+  text-align: center;
+}
+
+.women h2 {
+  color: black;
+  font-size: 4.5vh;
+}
+
+.showcase {
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+  width: 100vw;
+}
+
+.card {
+  width: min(20rem);
+  min-height: 60vh;
+  border: solid black 2px;
+  padding-bottom: 0.1rem;
+}
+
+.img {
+  height: 78%;
+  background-image: url("../../public/images/pants.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-top: solid black 1px;
+  padding-left: 2%;
+  height: fit-content;
+}
+
+.info h3,
+.info h4 {
+  margin-bottom: 0;
+}
+
+.info p {
+  margin-top: 0;
+}
+
+button {
+  border: solid black 1px;
+  border-radius: 50px;
+  margin-top: 1rem;
 }
