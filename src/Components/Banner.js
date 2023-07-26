@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "../Styles/Banner.module.css";
 import { Link } from "react-router-dom";
-import Jewelry from "./Jewelry";
 
 function Banner() {
   return (

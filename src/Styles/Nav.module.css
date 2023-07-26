@@ -40,13 +40,6 @@ input {
   padding-inline: 1%;
 }
 
-.login {
-  display: flex;
-  justify-content: center;
-  height: 90%;
-  width: 5%;
-}
-
 button {
   border: none;
   background-color: inherit;
@@ -54,31 +47,6 @@ button {
 
 button:hover {
   cursor: pointer;
-}
-
-.login_img {
-  height: 100%;
-  width: 100%;
-  background-image: url("../../public/images/user.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.basket {
-  display: flex;
-  justify-content: center;
-  height: 90%;
-  width: 5%;
-}
-
-.basket_img {
-  height: 100%;
-  width: 100%;
-  background-image: url("../../public/images/cart.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 @media only screen and (max-width: 600px) {

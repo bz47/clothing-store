@@ -1,25 +1,8 @@
 import React from "react";
 import styles from "../Styles/Nav.module.css";
 import { NavLink } from "react-router-dom";
-import App from "../App";
-import Kids from "./Kids";
-import Women from "./Women";
-import Men from "./Men";
-import Banner from "./Banner";
 
 function Nav() {
-  let Component;
-  switch (window.location.pathname) {
-    case "/":
-      Component = <Banner />;
-      break;
-    case "/Kids":
-      Component = <Kids />;
-      break;
-    case "/Women":
-      Component = <Women />;
-      break;
-  }
   return (
     <>
       <div className={styles.nav}>
@@ -43,16 +26,16 @@ function Nav() {
           </NavLink>
         </div>
         <input type="text" id={styles.search} placeholder="Search" />
-        <div className={styles.login}>
-          <button
-            id={styles.login}
-            className={styles.login_img}
-            href=""
-          ></button>
-        </div>
-        <div className={styles.basket}>
-          <button className={styles.basket_img}></button>
-        </div>
+        <NavLink exact to="./Login">
+          <div style={{ color: "silver" }} class="material-symbols-outlined">
+            person
+          </div>
+        </NavLink>
+        <NavLink exact to="./Basket">
+          <div style={{ color: "silver" }} class="material-symbols-outlined">
+            shopping_cart
+          </div>{" "}
+        </NavLink>
       </div>
     </>
   );
