@@ -142,7 +142,7 @@
   }
 
   .right {
-    margin-top: 5%;
+    margin-top: 12%;
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -188,7 +188,7 @@
   }
 
   .right {
-    margin-top: 8%;
+    margin-top: 20%;
   }
 
   .right div p {
